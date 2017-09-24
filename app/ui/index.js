@@ -12,11 +12,13 @@ import {
   View
 } from 'react-native';
 
-export class index extends Component {
+import Finance from './widgets/finances'
+
+export default class index extends Component {
   render() {
     return (
       <View style={styles.container}>
-
+      <Finance />
       </View>
     );
   }
