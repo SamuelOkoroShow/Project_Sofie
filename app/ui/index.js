@@ -12,13 +12,16 @@ import {
   View
 } from 'react-native';
 
+import DashPanel from './dash_panel'
 import Finance from './widgets/finances'
 
 export default class index extends Component {
   render() {
     return (
       <View style={styles.container}>
+      <DashPanel />
       <Finance />
+      
       </View>
     );
   }

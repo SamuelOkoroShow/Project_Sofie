@@ -14,9 +14,9 @@ import {
 } from 'react-native';
 
 var {height, width} = Dimensions.get('window');
-import Icon from 'react-native-vector-icons/feather';
+import Icon from 'react-native-vector-icons/Feather';
 
-export class finance extends Component {
+export default class finance extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   container: {
     position:'absolute',
     top:0,
-    right:-200,
+    left:-200,
     width:width,
     height:height,
     justifyContent: 'center',

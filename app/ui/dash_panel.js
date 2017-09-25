@@ -12,11 +12,11 @@ import {
   View
 } from 'react-native';
 
-export class Dash extends Component {
+export default class Dash extends Component {
   render() {
     return (
       <View style={styles.container}>
-
+      <Text></Text>
       </View>
     );
   }
@@ -25,8 +25,7 @@ export class Dash extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+
+    backgroundColor:'#333'
   },
 });
