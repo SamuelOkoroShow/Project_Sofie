@@ -21,3 +21,9 @@ I'll share more info on my story driven world soon enough
 I need some help on this project guys. Looking for some RN work experience hours?
 Take a piece of my course for free and lets get cracking
 I need to find my dog :/
+
+#Updates
+the idea here is to have mutiple cards be pulled from an internal database as once.
+I might skew the Scrollview a bit. I still havent decided.
+I'm following some design templates for these. So hopefully the come out a lot nicer than 
+other cards in the app world

@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
+  LayoutAnimation,
   Text,
   View
 } from 'react-native';
@@ -15,7 +16,7 @@ import {
 export default class eachCard extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View  style={styles.container}>
 
       </View>
     );
@@ -25,11 +26,12 @@ export default class eachCard extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#111',
-    width:100,
+    backgroundColor: 'rgba(0,0,0,0.4)',
+    width:300,
     height:200,
-    borderRadius:5,
-    borderWidth:5,
-    borderColor:"rgba(255,255,255,0.3)"
+    transform:[{skewY:'-9deg'}],
+    borderRadius:7,
+    borderWidth:5 ,
+    borderColor:"rgba(255,255,255,0.2)"
   },
 });
