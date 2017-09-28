@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export class eachCard extends Component {
+export default class eachCard extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -25,8 +25,11 @@ export class eachCard extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#111',
+    width:100,
+    height:200,
+    borderRadius:5,
+    borderWidth:5,
+    borderColor:"rgba(255,255,255,0.3)"
   },
 });

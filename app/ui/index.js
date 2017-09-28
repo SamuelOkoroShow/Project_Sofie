@@ -14,14 +14,13 @@ import {
 
 import DashPanel from './dash_panel'
 import Finance from './widgets/finances'
+import EachCard from './widgets/eachCard'
 
 export default class index extends Component {
   render() {
     return (
       <View style={styles.container}>
-      <DashPanel />
-      <Finance />
-      
+      <EachCard />
       </View>
     );
   }
@@ -32,6 +31,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    margin:15,
     backgroundColor: '#F5FCFF',
   },
 });
