@@ -25,13 +25,13 @@ export default class eachCard extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: 'rgba(0,0,0,0.4)',
-    width:300,
+    width:100,
     height:200,
+    marginLeft:-20,
     transform:[{skewY:'-9deg'}],
     borderRadius:7,
     borderWidth:5 ,
-    borderColor:"rgba(255,255,255,0.2)"
+    borderColor:"rgba(255,255,255,0.1)"
   },
 });
