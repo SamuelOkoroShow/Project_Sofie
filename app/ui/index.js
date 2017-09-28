@@ -25,6 +25,7 @@ export default class index extends Component {
   render() {
     return (
       <Image source={back} resizeMode = 'stretch' style={styles.container}>
+      <View style={{height:70}} />
       <ScrollView style={{flex:1}} contentContainStyle={{flex:1}} horizontal={true}>
       <EachCard />
       <EachCard />
