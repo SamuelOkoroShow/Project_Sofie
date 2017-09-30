@@ -11,10 +11,12 @@ import {
   LayoutAnimation,
   Text,
   StatusBar,
-  
+  Image,
   TouchableOpacity,
   View
 } from 'react-native';
+
+import myCar from '../../pouch/imgs/sean_crow.png'
 
 export default class eachCard extends Component {
   attribute1(){
@@ -25,7 +27,7 @@ export default class eachCard extends Component {
       <View  style={styles.container}>
       <StatusBar
     hidden={true}   />
-      <TouchableOpacity style={{flex:1}} />
+      <Image source={myCar} resizeMode="contain" style={{position:'absolute', top:100, left:10, height:300, width:200}} />
       <View style={{flex:1, padding:10}}>
       {this.attribute1()}
       {this.attribute1()}
@@ -38,9 +40,10 @@ export default class eachCard extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'rgba(0,0,0,0.4)',
+    backgroundColor: 'rgba(0,0,0,0.7)',
     width:190,
     height:600,
+    justifyContent:'center',
     marginLeft:-20,
     transform:[{skewY:'-9deg'}],
     borderWidth:5 ,
