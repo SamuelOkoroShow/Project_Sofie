@@ -26,7 +26,9 @@ export default class eachCard extends Component {
       <StatusBar
     hidden={true}   />
       <TouchableOpacity style={{flex:1}} />
-      <View style={{flex:1}}>
+      <View style={{flex:1, padding:10}}>
+      {this.attribute1()}
+      {this.attribute1()}
       {this.attribute1()}
       </View>
       </View>
