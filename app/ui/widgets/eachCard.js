@@ -17,13 +17,18 @@ import {
 } from 'react-native';
 
 export default class eachCard extends Component {
+  attribute1(){
+    return(<View style={{width:50, height:50, borderRadius:25, backgroundColor:'rgba(0,0,0,0.5)'}} />)
+  }
   render() {
     return (
       <View  style={styles.container}>
       <StatusBar
     hidden={true}   />
       <TouchableOpacity style={{flex:1}} />
-
+      <View style={{flex:1}}>
+      {this.attribute1()}
+      </View>
       </View>
     );
   }
