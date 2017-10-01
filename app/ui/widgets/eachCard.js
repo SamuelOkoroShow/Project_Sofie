@@ -20,7 +20,7 @@ import myCar from '../../pouch/imgs/sean_crow.png'
 
 export default class eachCard extends Component {
   attribute1(){
-    return(<View style={{width:50, height:50, borderRadius:25, backgroundColor:'rgba(0,0,0,0.5)'}} />)
+    return(<View style={{width:50, height:50, borderRadius:25, backgroundColor:'#e4d6c9'}} />)
   }
   render() {
     return (
@@ -40,7 +40,7 @@ export default class eachCard extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'rgba(0,0,0,0.7)',
+    backgroundColor: 'rgba(0,0,0,0.9)',
     width:190,
     height:600,
     justifyContent:'center',
